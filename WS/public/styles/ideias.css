@@ -1,0 +1,60 @@
+/*Ideia.html*/
+#page-ideias #container{
+  display: block;
+}
+#page-ideias header{
+  display: flex;
+  justify-content: space-between;
+}
+#page-ideias nav{
+  display: flex;
+  align-items: center;
+  margin-top: -100px;
+}
+#page-ideias nav li{
+  list-style-type: none;
+
+  margin-right: 16px;
+}
+#page-ideias nav li a{
+  color: #25282b;
+}
+#page-ideias nav li a.button{
+  color: #fff;
+}
+#page-ideias nav li:last-child {
+  margin: 0;
+}
+
+
+#page-ideias main{
+  margin-top: 0;
+}
+section#title{
+  text-align: center;
+
+  
+}
+section#title p{
+  opacity: 0.7;
+  margin: 0;
+}
+section#title h1{
+  margin: 0;
+
+  font-size: 28px;
+}
+section#ideias {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 20px;
+}
+section#ideias #ideia{
+  margin: 0;
+  height: 220px;
+}
+section#title,
+footer{
+  margin-top: 64px;
+}

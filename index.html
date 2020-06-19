@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <title>Casa Decorativa</title>
+  </head>
+  <body>
+
+    <div id="container">
+      <section id="intro">
+        <header>
+          <a href="/">
+            <img src="/assets/logo (2).png" alt="Logo Casa Decorativa">
+          </a>
+        </header>
+
+        <main>
+          <p>
+            Ficar em casa em períodos longos, não tem sido fácil.
+          </p>
+          <p>
+            Pensando nisso, nós catalogamos ideias para dar um UP no design interior da sua casa como,<strong>
+              flores, plantas, mini-hortas, dicas</strong>
+            e tudo que for necessário para tornar esse momento dificíl mais interessante e intuitivo.
+          </p>
+          <p>
+            Comece clicando em ver ideias para ver ideias cadastradas. Você também pode contribuir adicione sua ideia!
+          </p>
+        </main>
+
+        <section id="button">
+          <button onclick="onOff()">+ Adicionar ideia</button>
+          <a href="/ideias" class="button">Ver ideias</a>
+        </section>
+
+        <footer>com ❤
+          <a href="https://www.linkedin.com/in/nathan-a-1b9436124/" target="_blank">
+            Nathan de Andrade</a>
+        </footer>
+      </section>
+
+      <section id="last-ideias">
+        <div id="ideia">
+          <img src="https://image.flaticon.com/icons/svg/3021/3021831.svg" alt="Imagem de curso de programação">
+
+          <div class="content">
+            <h3>Flores no vaso</h3>
+            <p>Flores</p>
+            <div class="description">Lorem ipsum dolor, sit amet, adhuc nulla definiebas mei ad, ei doming aperiam delicata est.</div>
+            <a href="#">Ir para a ideia</a>
+          </div>
+        </div>
+        <div id="ideia">
+          <img src="https://image.flaticon.com/icons/png/512/1198/1198654.png" alt="Imagem de curso de programação">
+
+          <div class="content">
+            <h3>Plantas no vaso</h3>
+            <p>Plantas</p>
+            <div class="description">Lorem ipsum dolor, sit amet, adhuc nulla definiebas mei ad, ei doming aperiam delicata est.</div>
+            <a href="#">Ir para a ideia</a>
+          </div>
+        </div>
+        <div id="ideia">
+          <img src="https://image.flaticon.com/icons/svg/3057/3057195.svg" alt="Imagem de curso de programação">
+
+          <div class="content">
+            <h3>Mini-Hortas</h3>
+            <p>Hortaliças</p>
+            <div class="description">Lorem ipsum dolor, sit amet, adhuc nulla definiebas mei ad, ei doming aperiam delicata est.</div>
+            <a href="#">Ir para a ideia</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="hide">
+      <div class="content">
+        <h1>Nova Ideia</h1>
+
+        <form action="">
+
+          <div class="input-wrapper">
+            <label for="title">Título da Ideia</label>
+            <input type="text" name="title">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="category">Categoria</label>
+            <input type="text" name="category">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="image">Link da imagem</label>
+            <input type="text" name="image">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="description">Digite uma descrição para essa ideia</label>
+            <textarea name="description" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="link">Link da ideia</label>
+            <input type="url" name="link">
+          </div>
+
+          <a href="#" onclick="onOff()">Voltar</a>
+          <button>Salvar</button>
+
+        </form>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
