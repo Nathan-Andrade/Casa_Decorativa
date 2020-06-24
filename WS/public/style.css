@@ -3,12 +3,11 @@
 body{
   background: #e5e5e5;
   color: #25282b;
-  
+
   font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
-
-body.hideScroll{
+body.hideScrool{
   overflow: hidden;
 }
 a{
@@ -17,7 +16,7 @@ a{
   text-decoration: none;
 }
 a:hover{
- text-decoration: underline;
+  text-decoration: underline;
 }
 p, .description{
   font-size: 16px;
@@ -47,17 +46,15 @@ p, .description{
   box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
 }
 
-
 /*Padrão*/
 #container{
   width: 80%;
   max-width: 980px;
-  
+
   margin: 40px auto;
-  
+
   display: flex;
 }
-
 #intro{
   width: 300px;
 
@@ -69,28 +66,25 @@ p, .description{
   height: 300px;
 
   margin-left: -50px;
-
 }
 main{
   margin: 32px 0;
-
-  margin-top: -150px
+  margin-top: -150px;
+  margin-right: 30px;
+  width: 400px;
 }
-
-
 #button{
   display: flex;
   justify-content: space-evenly;
 
   margin-bottom: 32px;
-
 }
 button{
   color: #ff5e84;
   border: none;
   font-weight: bold;
   background: none;
-  
+
   cursor: pointer;
   outline: none;
 
@@ -99,16 +93,11 @@ button{
   line-height: 18px;
   letter-spacing: 0.2px;
 }
-
 button:hover{
   text-decoration: underline;
 }
-
-
 #button, footer{
   text-align: center;
-  
-
 }
 footer{
   text-align: center;
@@ -140,7 +129,6 @@ footer a:hover{
 
   margin-bottom: 32px;
 }
-
 #ideia img{
   width: 60px;
   height: 60px;
@@ -159,20 +147,17 @@ footer a:hover{
   margin: 16px 0;
 }
 
-/* Modal */
+/*Modal*/
 #modal{
   background-color: #ff5e84;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
 
-  
-
   display: flex;
-
   align-items: center;
   justify-content: center;
 }
@@ -198,7 +183,6 @@ footer a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-
 }
 .content form{
   width: 80%;
@@ -208,13 +192,12 @@ footer a:hover{
 }
 .content form div:nth-child(3),
 .content form div:nth-child(4),
-.content form div:nth-child(5) {
+.content form div:nth-child(5){
   grid-column: span 2;
 }
 .input-wrapper{
   margin: 16px 0;
 }
-
 form input,
 form textarea{
   width: 100%;
@@ -249,13 +232,12 @@ form a{
 
   border-radius: 6px;
 
-
   align-self: end;
 
   transition: 500ms;
 }
 form a:hover{
-  background: #fff;
+  background-color: #fff;
   color: #ff5e84;
 
   text-decoration: none;
@@ -288,7 +270,7 @@ form button:hover{
   visibility: hidden;
 }
 
-/*Ideia.html*/
+/*Ideias.html*/
 #page-ideias #container{
   display: block;
 }
@@ -312,17 +294,14 @@ form button:hover{
 #page-ideias nav li a.button{
   color: #fff;
 }
-#page-ideias nav li:last-child {
+#page-ideias nav li:last-child{
   margin: 0;
 }
-
-
 #page-ideias main{
   margin-top: 0;
 }
 section#title{
   text-align: center;
-
   margin: 48px;
 }
 section#title p{
@@ -331,14 +310,13 @@ section#title p{
 }
 section#title h1{
   margin: 0;
-
   font-size: 28px;
 }
-section#ideias {
+section#ideias{
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   gap: 20px;
+  width: 1000px;
 }
 section#ideias #ideia{
   margin: 0;

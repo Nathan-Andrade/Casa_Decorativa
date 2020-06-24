@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="intro">
+
+  <!--Logo Marca -->
+  <header>
+    <a href="/">
+      <img src="/logo (2).png" alt="Casa Decorativa">
+    </a>
+  </header>
+
+  <!-- Texto informativo com botões direcionaveis-->
+  <main>
+    <p>Ficar em casa em períodos longos, não tem sido fácil</p>
+    <p>
+      Pensando nisso, nós catalogamos ideias para dar um UP no design interior da sua casa como,<strong>
+        flores, plantas, mini-hortas, dicas</strong>
+      e tudo que for necessário para tornar esse momento dificíl mais interessante e intuitivo.
+    </p>
+    <p>
+      Comece clicando em ver ideias para ver ideias cadastradas. Você também pode contribuir adicionando sua ideia!  
+    </p>
+  </main>
+
+  <section id="button">
+    <button onclick="onOff()">+ Adicionar ideia</button>
+    <a href="/ideias" class="button">Ver ideias</a>
+  </section>
+
+  <footer>com ❤ <a href="https://www.linkedin.com/in/nathan-a-1b9436124/">Nathan de Andrade</a></footer>
+</section>
+
+<!-- Últimas ideias adicionadas-->
+<section id="last-ideias">
+  {% include "all_ideias.html" %}
+</section>
+{% endblock %}

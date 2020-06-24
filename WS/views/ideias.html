@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+    {% block title %}
+    <title>Ideias - Casa Decorativa</title>
+    {% endblock title %}
+
+    {% set bodyId = "page-ideias" %}
+  
+    {% block content %}
+      <header>
+        <!--Logo -->
+        <a href="/">
+          <img src="/logo (2).png" alt="Logo Casa Decorativa">
+        </a>
+        <!--NavBar -->
+        <nav>
+          <li>
+            <a href="/">Início</a>
+          </li>
+          
+            <a class="button" href="#" onclick="onOff()">Nova ideia</a>
+          </li>
+        </nav>
+      </header>
+
+      <!--Informar campo de ideias -->
+      <section id="title">
+        <p>em exibição</p>
+        <h1>ideias</h1>
+      </section>
+
+      <!--Ideias -->
+      <main>
+        <section id="ideias">
+          {% include "all_ideias.html" %}
+        </section>
+      </main>
+
+      <!--Rodapé -->
+      <footer>com ❤
+        <a href="https://www.linkedin.com/in/nathan-a-1b9436124/" target="_blank">
+          Nathan de Andrade</a>
+      </footer>
+    </div>
+{% endblock %}

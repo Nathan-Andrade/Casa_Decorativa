@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% include "head_links.html" %}
+
+  {% block title %}
+  <title>Casa decorativa</title>
+  {%endblock title %}
+  
+</head>
+<body id="{{ bodyId }}">
+  <div id="container">
+    {% block content %}
+    
+    {% endblock %}
+  </div>
+
+      <!-- Modal -->
+    {% include "modal.html" %}
+
+  <script src="/index.js"></script>
+</body>
+</html>
