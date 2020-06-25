@@ -4,7 +4,7 @@
 
 <h4 style="top: -52px">Um Projeto desenvolvido para ajudar pessoas com ideias para mudar o interior de suas casas, a ajudar outras pessoas.</h4>
 
- ![](https://img.shields.io/github/languages/top/Nathan-Andrade/Casa_Decorativa) ![](https://img.shields.io/github/languages/count/Nathan-Andrade/Casa_Decorativa) ![](https://img.shields.io/github/repo-size/Nathan-Andrade/Casa_Decorativa) ![](https://img.shields.io/github/last-commit/Nathan-Andrade/Casa_Decorativa)
+ ![](https://img.shields.io/github/languages/top/Nathan-Andrade/Casa_Decorativa?color=%23e9587a) ![](https://img.shields.io/github/languages/count/Nathan-Andrade/Casa_Decorativa?color=%23e9587a) ![](https://img.shields.io/github/repo-size/Nathan-Andrade/Casa_Decorativa?color=%23e9587a) ![](https://img.shields.io/github/last-commit/Nathan-Andrade/Casa_Decorativa?color=%23e9587a)
 
 # :airplane:  Tecnologias
 - <a href="https://nodejs.org/en/">Node js</a>
